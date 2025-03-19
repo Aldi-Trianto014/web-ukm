@@ -1,0 +1,21 @@
+# Node modules (biar gak ke-push, bisa install ulang pake npm install)
+node_modules/
+
+# File environment (biar kredensial kayak MongoDB URL aman)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache & build
+dist/
+build/
+.cache/
+
+# Sistem OS (biar gak ada sampah dari macOS/Windows)
+.DS_Store
+Thumbs.db
